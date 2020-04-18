@@ -1,12 +1,12 @@
 function blink()
 {
     let name = document.querySelector("span.navbar fixed-top navbar-expand-lg navbar-dark bg-darks nav.navbar fixed-top navbar-expand-lg navbar-dark bg-dark");
-    if(name.style.visibiliy === 'hidden')
+    if(name.style.visibility === 'hidden')
     {
-        name.style.visibiliy = 'visible';
+        name.style.visibility = 'visible';
     }
     else{
-        name.style.visibiliy = 'hidden';
+        name.style.visibility = 'hidden';
     }
 
 }
