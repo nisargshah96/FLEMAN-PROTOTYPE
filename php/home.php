@@ -8,13 +8,13 @@
 		<title>Home</title>
 		<link rel="stylesheet" href="../css/navpad.css"/>
 	</head>
-	<body>
+	<body onload="blink()">
 		<?php
 			require("../html/navbar.html");
 		?>
 		<div class="media">
   			<div class="media-body">
-			<form>
+			<form method="POST" action="">
 			    <p>
 			    	<h2>Make Reservations</h2>
 			    </p>
