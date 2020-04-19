@@ -57,7 +57,26 @@
           <a class="nav-link" href="../php/customercare.php">Customer Care</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../php/login.php">Login</a>
+          <div class="dropdown">
+            <a
+              class="btn btn-secondary dropdown-toggle"
+              href="logout.php"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Logout
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Booking</a>
+              <a class="dropdown-item" href="#">Cancellation</a>
+              <a class="dropdown-item" href="#">Hand-over</a>
+              <a class="dropdown-item" href="#">Return</a>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
