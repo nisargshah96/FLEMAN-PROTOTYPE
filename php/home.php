@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -13,7 +14,7 @@
 		?>
 		<div class="media container">
   			<div class="media-body">
-			<form method="POST" action="">
+			<form method="POST" action="selectloc.php">
 			    <p>
 			    	<h2>Make Reservations</h2>
 			    </p>
@@ -21,15 +22,15 @@
 						<div class="input-group-prepend">
 						    <span class="input-group-text">Rental Date & Time</span>
 						</div>
-					  	<input type="Date" class="form-control" autofocus required>
-					  	<input type="Time" class="form-control" required>
+					  	<input type="Date" class="form-control" autofocus>
+					  	<input type="Time" class="form-control">
 				</div><br>
 				<div class="input-group">
 						<div class="input-group-prepend">
 						    <span class="input-group-text">Return Date & Time</span>
 						</div>
-					  	<input type="Date" class="form-control" required>
-					  	<input type="Time" class="form-control" required>
+					  	<input type="Date" class="form-control">
+					  	<input type="Time" class="form-control">
 				</div><br>
 				<div class="input-group">
 				  	<div class="input-group-append">
@@ -58,7 +59,7 @@
 					  </div>
 				</div><br>
 				<div class="input-group">
-					<input type="submit" name="submit" value="Continue Booking" class="form-control" required>
+					<input type="submit" name="submit" value="Continue Booking" class="form-control">
 				</div><br>
 			</form>
 		</div>
